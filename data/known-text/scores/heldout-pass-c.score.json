@@ -1,0 +1,68 @@
+{
+ "lines": [
+  14,
+  15,
+  16,
+  17,
+  20
+ ],
+ "alts": 0.0,
+ "decoder": "char",
+ "sign_acc": 0.8776,
+ "signs_truth": 294,
+ "char_acc": 0.8188,
+ "bits_per_letter": 2.968,
+ "dict_cover": 0.593,
+ "control_shuffled": {
+  "bits_per_letter": 4.427,
+  "dict_cover": 0.31,
+  "char_acc": 0.2047
+ },
+ "per_line": {
+  "14": {
+   "truth_n": 56,
+   "read_n": 57,
+   "edits": 2,
+   "sign_acc": 0.9643,
+   "plain": "scha?apresilallaauespresetpuisuintamongmpeterendeuotionou",
+   "truth": "schaapresilallaavespresetpuisvintamontmartreendevotionou",
+   "char_acc": 0.9107
+  },
+  "15": {
+   "truth_n": 58,
+   "read_n": 59,
+   "edits": 9,
+   "sign_acc": 0.8448,
+   "plain": "onslistfroineioietadtquepourlisledequeellesepromectquelagorsursermlm",
+   "truth": "onfistfeuxdejoyetantquepourlislede#ellesepromectquelatresveserala",
+   "char_acc": 0.7344
+  },
+  "16": {
+   "truth_n": 60,
+   "read_n": 58,
+   "edits": 6,
+   "sign_acc": 0.9,
+   "plain": "paissichacunseueutdespou?llerdesonintroestonsecourboitprom",
+   "truth": "paixsichascunseveultdespouillerdesoninterestonsepourroitprom",
+   "char_acc": 0.8667
+  },
+  "17": {
+   "truth_n": 59,
+   "read_n": 58,
+   "edits": 7,
+   "sign_acc": 0.8814,
+   "plain": "ettetunreposecnouxetrouueprudedifficulteslesgouuerneursdes",
+   "truth": "ectreungreposen#ousetrouvepeudedifficultezlesgouverneursdes",
+   "char_acc": 0.8621
+  },
+  "20": {
+   "truth_n": 61,
+   "read_n": 56,
+   "edits": 12,
+   "sign_acc": 0.8033,
+   "plain": "soitaendoutescesetsidouuellementquideboisdauficaprisdeuxou",
+   "truth": "soitnendoubtezpasetsinouvellement#deboisdauphinaprisdeuxbonne",
+   "char_acc": 0.7333
+  }
+ }
+}

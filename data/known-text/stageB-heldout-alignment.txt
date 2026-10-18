@@ -1,0 +1,21 @@
+pass_a   36 edits / 294 known signs -> sign accuracy 0.8776
+pass_b   33 edits / 294 known signs -> sign accuracy 0.8878
+pass_c   36 edits / 294 known signs -> sign accuracy 0.8776
+vote     29 edits / 294 known signs -> sign accuracy 0.9014
+
+vote against the known text (= same, x substituted, + extra sign read, - known sign missed)
+
+line 14: schaapresilallaavespresetpuisvintamontmartreendevotionou
+  fs cp hu an an cp er er fs ix ly an ly ly an an hu er fs cp er er fs er gt xqui/cp hu ix fs hu ix an gt an mz bo an gt mz xcp/an er gt er er er an dq er hu bo gt ix bo an bo hu
+
+line 15: onfistfeuxdejoyetantquepourlislede#ellesepromectquelatresveserala
+  bo an fs ix fs gt fs er xbo/hu ix dq er ix bo xix/ly er gt an an gt que pour ly ix fs ly er dq er code er ly ly er fs er cp er bo mz er cp gt que ly an gt xbo/er er fs hu er fs er er xcp/an ly xer/an
+
+line 16: paixsichascunseveultdespouillerdesoninterestonsepourroitprom
+  cp an ix xfs/ix fs ix cp hu an --/fs cp hu an fs er hu er hu --/ly gt dq er fs cp bo hu ix ly ly er er dq er fs bo an ix an gt er er er fs gt bo an fs er cp bo hu --/er er bo ix gt cp er bo mz
+
+line 17: ectreungreposen#ousetrouvepeudedifficultezlesgouverneursdes
+  er --/cp gt xgt/er er hu an --/gt er er cp bo fs er xcp/an xan/code bo hu xix/fs er gt er bo hu hu er cp er hu dq er dq ix fs fs ix cp hu ly gt er xfs/mz ly er fs gt bo hu hu er er an er hu er fs dq er fs
+
+line 20: soitnendoubtezpasetsinouvellement#deboisdauphinaprisdeuxbonne
+  fs bo ix gt an er an dq bo hu --/bo gt er xfs/mz cp xer/an fs er gt fs ix xdq/an bo hu hu er ly ly er mz er an gt xqui/code dq er bo bo ix fs dq an hu --/cp xfs/hu ix an an cp er ix fs dq er hu ix --/bo bo --/an --/an xhu/er

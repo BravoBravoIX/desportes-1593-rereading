@@ -1,0 +1,382 @@
+{
+ "part": "recto",
+ "total": {
+  "cls_eq": 2521,
+  "cls_n": 2709,
+  "let_eq": 2377,
+  "class_agreement": 0.931,
+  "letter_agreement_on_matched_classes": 0.943
+ },
+ "lines": [
+  {
+   "his_line": 11,
+   "ours_classes": 34,
+   "his_classes": 37,
+   "class_ratio": 0.901,
+   "matched": 32,
+   "same_letter_on_matched": 31,
+   "our_line": 12
+  },
+  {
+   "his_line": 12,
+   "ours_classes": 66,
+   "his_classes": 60,
+   "class_ratio": 0.921,
+   "matched": 58,
+   "same_letter_on_matched": 53,
+   "our_line": 13
+  },
+  {
+   "his_line": 13,
+   "ours_classes": 29,
+   "his_classes": 34,
+   "class_ratio": 0.889,
+   "matched": 28,
+   "same_letter_on_matched": 26,
+   "our_line": 14
+  },
+  {
+   "his_line": 14,
+   "ours_classes": 74,
+   "his_classes": 71,
+   "class_ratio": 0.952,
+   "matched": 69,
+   "same_letter_on_matched": 64,
+   "our_line": 15
+  },
+  {
+   "his_line": 15,
+   "ours_classes": 23,
+   "his_classes": 26,
+   "class_ratio": 0.816,
+   "matched": 20,
+   "same_letter_on_matched": 19,
+   "our_line": 16
+  },
+  {
+   "his_line": 16,
+   "ours_classes": 68,
+   "his_classes": 69,
+   "class_ratio": 0.978,
+   "matched": 67,
+   "same_letter_on_matched": 66,
+   "our_line": 17
+  },
+  {
+   "his_line": 17,
+   "ours_classes": 50,
+   "his_classes": 52,
+   "class_ratio": 0.941,
+   "matched": 48,
+   "same_letter_on_matched": 47,
+   "our_line": 18
+  },
+  {
+   "his_line": 18,
+   "ours_classes": 69,
+   "his_classes": 70,
+   "class_ratio": 0.978,
+   "matched": 68,
+   "same_letter_on_matched": 65,
+   "our_line": 19
+  },
+  {
+   "his_line": 19,
+   "ours_classes": 74,
+   "his_classes": 71,
+   "class_ratio": 0.979,
+   "matched": 71,
+   "same_letter_on_matched": 66,
+   "our_line": 20
+  },
+  {
+   "his_line": 20,
+   "ours_classes": 66,
+   "his_classes": 69,
+   "class_ratio": 0.963,
+   "matched": 65,
+   "same_letter_on_matched": 64,
+   "our_line": 21
+  },
+  {
+   "his_line": 21,
+   "ours_classes": 73,
+   "his_classes": 73,
+   "class_ratio": 0.973,
+   "matched": 71,
+   "same_letter_on_matched": 69,
+   "our_line": 22
+  },
+  {
+   "his_line": 22,
+   "ours_classes": 67,
+   "his_classes": 69,
+   "class_ratio": 0.941,
+   "matched": 64,
+   "same_letter_on_matched": 59,
+   "our_line": 23
+  },
+  {
+   "his_line": 23,
+   "ours_classes": 67,
+   "his_classes": 67,
+   "class_ratio": 1.0,
+   "matched": 67,
+   "same_letter_on_matched": 61,
+   "our_line": 24
+  },
+  {
+   "his_line": 24,
+   "ours_classes": 66,
+   "his_classes": 65,
+   "class_ratio": 0.992,
+   "matched": 65,
+   "same_letter_on_matched": 58,
+   "our_line": 25
+  },
+  {
+   "his_line": 25,
+   "ours_classes": 68,
+   "his_classes": 67,
+   "class_ratio": 0.933,
+   "matched": 63,
+   "same_letter_on_matched": 55,
+   "our_line": 26
+  },
+  {
+   "his_line": 26,
+   "ours_classes": 68,
+   "his_classes": 68,
+   "class_ratio": 0.971,
+   "matched": 66,
+   "same_letter_on_matched": 62,
+   "our_line": 27
+  },
+  {
+   "his_line": 27,
+   "ours_classes": 70,
+   "his_classes": 70,
+   "class_ratio": 0.986,
+   "matched": 69,
+   "same_letter_on_matched": 68,
+   "our_line": 28
+  },
+  {
+   "his_line": 28,
+   "ours_classes": 66,
+   "his_classes": 68,
+   "class_ratio": 0.925,
+   "matched": 62,
+   "same_letter_on_matched": 58,
+   "our_line": 29
+  },
+  {
+   "his_line": 29,
+   "ours_classes": 72,
+   "his_classes": 72,
+   "class_ratio": 1.0,
+   "matched": 72,
+   "same_letter_on_matched": 71,
+   "our_line": 30
+  },
+  {
+   "his_line": 30,
+   "ours_classes": 71,
+   "his_classes": 71,
+   "class_ratio": 0.972,
+   "matched": 69,
+   "same_letter_on_matched": 64,
+   "our_line": 31
+  },
+  {
+   "his_line": 31,
+   "ours_classes": 71,
+   "his_classes": 68,
+   "class_ratio": 0.978,
+   "matched": 68,
+   "same_letter_on_matched": 62,
+   "our_line": 32
+  },
+  {
+   "his_line": 32,
+   "ours_classes": 63,
+   "his_classes": 63,
+   "class_ratio": 0.984,
+   "matched": 62,
+   "same_letter_on_matched": 61,
+   "our_line": 33
+  },
+  {
+   "his_line": 33,
+   "ours_classes": 66,
+   "his_classes": 66,
+   "class_ratio": 0.985,
+   "matched": 65,
+   "same_letter_on_matched": 63,
+   "our_line": 34
+  },
+  {
+   "his_line": 34,
+   "ours_classes": 63,
+   "his_classes": 65,
+   "class_ratio": 0.953,
+   "matched": 61,
+   "same_letter_on_matched": 56,
+   "our_line": 35
+  },
+  {
+   "his_line": 35,
+   "ours_classes": 65,
+   "his_classes": 66,
+   "class_ratio": 0.947,
+   "matched": 62,
+   "same_letter_on_matched": 57,
+   "our_line": 36
+  },
+  {
+   "his_line": 36,
+   "ours_classes": 72,
+   "his_classes": 72,
+   "class_ratio": 0.917,
+   "matched": 66,
+   "same_letter_on_matched": 59,
+   "our_line": 37
+  },
+  {
+   "his_line": 37,
+   "ours_classes": 68,
+   "his_classes": 70,
+   "class_ratio": 0.942,
+   "matched": 65,
+   "same_letter_on_matched": 61,
+   "our_line": 38
+  },
+  {
+   "his_line": 38,
+   "ours_classes": 71,
+   "his_classes": 74,
+   "class_ratio": 0.966,
+   "matched": 70,
+   "same_letter_on_matched": 66,
+   "our_line": 39
+  },
+  {
+   "his_line": 39,
+   "ours_classes": 68,
+   "his_classes": 67,
+   "class_ratio": 0.978,
+   "matched": 66,
+   "same_letter_on_matched": 61,
+   "our_line": 40
+  },
+  {
+   "his_line": 40,
+   "ours_classes": 66,
+   "his_classes": 66,
+   "class_ratio": 0.985,
+   "matched": 65,
+   "same_letter_on_matched": 63,
+   "our_line": 41
+  },
+  {
+   "his_line": 41,
+   "ours_classes": 60,
+   "his_classes": 63,
+   "class_ratio": 0.927,
+   "matched": 57,
+   "same_letter_on_matched": 52,
+   "our_line": 42
+  },
+  {
+   "his_line": 42,
+   "ours_classes": 62,
+   "his_classes": 62,
+   "class_ratio": 0.952,
+   "matched": 59,
+   "same_letter_on_matched": 57,
+   "our_line": 43
+  },
+  {
+   "his_line": 43,
+   "ours_classes": 66,
+   "his_classes": 68,
+   "class_ratio": 0.925,
+   "matched": 62,
+   "same_letter_on_matched": 54,
+   "our_line": 44
+  },
+  {
+   "his_line": 44,
+   "ours_classes": 71,
+   "his_classes": 67,
+   "class_ratio": 0.957,
+   "matched": 66,
+   "same_letter_on_matched": 65,
+   "our_line": 45
+  },
+  {
+   "his_line": 45,
+   "ours_classes": 74,
+   "his_classes": 67,
+   "class_ratio": 0.922,
+   "matched": 65,
+   "same_letter_on_matched": 61,
+   "our_line": 46
+  },
+  {
+   "his_line": 46,
+   "ours_classes": 74,
+   "his_classes": 73,
+   "class_ratio": 0.98,
+   "matched": 72,
+   "same_letter_on_matched": 70,
+   "our_line": 47
+  },
+  {
+   "his_line": 47,
+   "ours_classes": 70,
+   "his_classes": 71,
+   "class_ratio": 0.95,
+   "matched": 67,
+   "same_letter_on_matched": 63,
+   "our_line": 48
+  },
+  {
+   "his_line": 48,
+   "ours_classes": 69,
+   "his_classes": 69,
+   "class_ratio": 0.986,
+   "matched": 68,
+   "same_letter_on_matched": 67,
+   "our_line": 49
+  },
+  {
+   "his_line": 49,
+   "ours_classes": 73,
+   "his_classes": 73,
+   "class_ratio": 0.986,
+   "matched": 72,
+   "same_letter_on_matched": 68,
+   "our_line": 50
+  },
+  {
+   "his_line": 50,
+   "ours_classes": 71,
+   "his_classes": 70,
+   "class_ratio": 0.965,
+   "matched": 68,
+   "same_letter_on_matched": 66,
+   "our_line": 51
+  },
+  {
+   "his_line": 51,
+   "ours_classes": 25,
+   "his_classes": 69,
+   "class_ratio": 0.447,
+   "matched": 21,
+   "same_letter_on_matched": 19,
+   "our_line": 52
+  }
+ ],
+ "note": "counts only; his text is not reproduced. his_line = his numbering."
+}

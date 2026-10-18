@@ -1,0 +1,96 @@
+{
+ "page": "f186r",
+ "rule": "proposals made by code (the 10 windows the period French model finds least likely, with the single sign change that helps most); a change is applied only where the crop of the image shows the proposed sign; looked at by Claude, 18 Oct 2026",
+ "changes": [
+  {
+   "id": 0,
+   "line": 16,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "closed loop below: c/p as read"
+  },
+  {
+   "id": 1,
+   "line": 46,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "loop below at the line end: c/p as read"
+  },
+  {
+   "id": 2,
+   "line": 37,
+   "old": "que",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "position estimate does not match the crop; not judged"
+  },
+  {
+   "id": 3,
+   "line": 35,
+   "old": "cp",
+   "new": "fs",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "no f/s bar sign at that place"
+  },
+  {
+   "id": 4,
+   "line": 41,
+   "old": "bo",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "deletion not supported"
+  },
+  {
+   "id": 5,
+   "line": 40,
+   "old": "gt",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "g/t signs present at the line end"
+  },
+  {
+   "id": 6,
+   "line": 20,
+   "old": "bo",
+   "new": "er",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "b/o loops with stem, as read"
+  },
+  {
+   "id": 7,
+   "line": 51,
+   "old": "cp",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "c/p sign present"
+  },
+  {
+   "id": 8,
+   "line": 40,
+   "old": "qui",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "qui sign clearly present"
+  },
+  {
+   "id": 9,
+   "line": 29,
+   "old": "bo",
+   "new": "hu",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "blotted sign; left as read"
+  }
+ ]
+}

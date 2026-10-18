@@ -1,0 +1,55 @@
+{
+ "decoder": "char",
+ "signs": 2085,
+ "classes": {
+  "?": 5,
+  "an": 298,
+  "bo": 135,
+  "code": 10,
+  "cp": 125,
+  "dq": 62,
+  "er": 502,
+  "et": 13,
+  "fs": 227,
+  "gt": 184,
+  "hu": 168,
+  "ix": 150,
+  "ly": 117,
+  "mz": 50,
+  "pour": 5,
+  "que": 17,
+  "qui": 17
+ },
+ "real": {
+  "bits_per_letter": 2.71,
+  "dict_cover": 0.668,
+  "letters": 2161
+ },
+ "controls_shuffled": [
+  {
+   "seed": 1,
+   "bits_per_letter": 4.194,
+   "dict_cover": 0.25,
+   "sample": "etactcqberyllinosuetaseunepycztypadotqueexauersetauoelrobarroiotesneiesangyscene"
+  },
+  {
+   "seed": 2,
+   "bits_per_letter": 4.231,
+   "dict_cover": 0.232,
+   "sample": "leregreostealezabddaptanseteleletdaconunedathobleresaohnefsschifutarreiietamdpro"
+  },
+  {
+   "seed": 3,
+   "bits_per_letter": 4.273,
+   "dict_cover": 0.256,
+   "sample": "eunopourychehuiuredecsescelosoffcteiupdescausquenostqueuxiopstysancaitaeutelucmo"
+  }
+ ],
+ "heldout_block": {
+  "from_sign": 1668,
+  "bits_per_letter": 2.729,
+  "dict_cover": 0.659
+ },
+ "page": "BnF fr. 3984 f. 189",
+ "note": "bits_per_letter: cost of the decoded letters under the period French 5-gram model; dict_cover: share of letters inside dictionary words of 4+ letters; controls_shuffled: the same signs in a random order (seeds 1-3), decoded the same way; heldout_block: the last fifth of the page decoded on its own from sign 'from_sign'."
+}

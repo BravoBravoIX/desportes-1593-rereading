@@ -1,0 +1,96 @@
+{
+ "page": "f186v",
+ "rule": "proposals made by code (the 10 windows the period French model finds least likely, with the single sign change that helps most); a change is applied only where the crop of the image shows the proposed sign; looked at by Claude, 18 Oct 2026",
+ "changes": [
+  {
+   "id": 0,
+   "line": 33,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "closed loop below: c/p as read"
+  },
+  {
+   "id": 1,
+   "line": 7,
+   "old": "dq",
+   "new": "et",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "no et sign at the line start"
+  },
+  {
+   "id": 2,
+   "line": 12,
+   "old": "mz",
+   "new": "hu",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "m/z sign present"
+  },
+  {
+   "id": 3,
+   "line": 3,
+   "old": "cp",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "c/p sign present (dark stroke)"
+  },
+  {
+   "id": 4,
+   "line": 13,
+   "old": "ix",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "two i/x signs present"
+  },
+  {
+   "id": 5,
+   "line": 32,
+   "old": "bo",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "position uncertain; deletion not supported"
+  },
+  {
+   "id": 6,
+   "line": 13,
+   "old": "er",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "last sign of the line blurred; left as read"
+  },
+  {
+   "id": 7,
+   "line": 9,
+   "old": "cp",
+   "new": "er",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "closed loop below: c/p as read"
+  },
+  {
+   "id": 8,
+   "line": 28,
+   "old": "dq",
+   "new": "cp",
+   "who": "Claude",
+   "decision": "applied",
+   "seen": "after the m/z sign: one stem with a closed loop below (c/p), not the two stems of d/q"
+  },
+  {
+   "id": 9,
+   "line": 16,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "hook or loop not clear; left as read"
+  }
+ ]
+}

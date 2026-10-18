@@ -1,0 +1,68 @@
+{
+ "lines": [
+  6,
+  10,
+  11,
+  12,
+  13
+ ],
+ "alts": 1.0,
+ "decoder": "char",
+ "sign_acc": 0.7917,
+ "signs_truth": 312,
+ "char_acc": 0.7898,
+ "bits_per_letter": 2.935,
+ "dict_cover": 0.582,
+ "control_shuffled": {
+  "bits_per_letter": 4.461,
+  "dict_cover": 0.304,
+  "char_acc": 0.2134
+ },
+ "per_line": {
+  "6": {
+   "truth_n": 64,
+   "read_n": 62,
+   "edits": 5,
+   "sign_acc": 0.9219,
+   "plain": "tequeienesaycommeilzlacourontrepareempisproiesquecestchernecessite",
+   "truth": "tequejenescaycommeilzlapourrontreparermaiscroyezquecestpurenecessite",
+   "char_acc": 0.8235
+  },
+  "10": {
+   "truth_n": 75,
+   "read_n": 59,
+   "edits": 24,
+   "sign_acc": 0.68,
+   "plain": "lesluyuouloirnieretleditqueluymonstresixdeseslettrespendantdo",
+   "truth": "lesluyvouloirnyeretle#luymonstresixdeseslettrespendantnostredebatnavarrefit",
+   "char_acc": 0.6351
+  },
+  "11": {
+   "truth_n": 44,
+   "read_n": 58,
+   "edits": 17,
+   "sign_acc": 0.6136,
+   "plain": "sdebasuier#fistspprofessiondefollagestecheunciergeralamain",
+   "truth": "saprofessiondefoylatestenueungciergeenlamain",
+   "char_acc": 0.5227
+  },
+  "12": {
+   "truth_n": 67,
+   "read_n": 62,
+   "edits": 10,
+   "sign_acc": 0.8507,
+   "plain": "criantmerciadieualeglisequeanostre#perelaportedelegliseluyfuster",
+   "truth": "criantmercyadieualegliseetanostresainctperelaportedelegliseluyfutre",
+   "char_acc": 0.806
+  },
+  "13": {
+   "truth_n": 62,
+   "read_n": 59,
+   "edits": 9,
+   "sign_acc": 0.8548,
+   "plain": "fuserpuisilyentepouilfustchanteunrupugemesse##debuesesetpre",
+   "truth": "fuseepuisilyentraouilfutchanteunehaultemessepar#debourgesetpre",
+   "char_acc": 0.7541
+  }
+ }
+}

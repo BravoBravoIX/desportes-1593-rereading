@@ -1,0 +1,21 @@
+The upper part of this image is a REFERENCE SHEET for a 1593 French cipher written in
+invented signs. Each row shows several handwritten examples of one sign, cut from a letter in the
+same hand; the red label at the left of the row is the sign's name. Eleven signs each stand for a
+pair of letters (a/n, b/o, c/p, d/q, e/r, f/s, g/t, h/u, i/x, l/y, m/z); four stand for "que",
+"qui", "pour" and "et". The sheet is in two columns.
+
+The lower part, below the line "STRIP TO READ", is a strip of the same cipher, in the same hand,
+shown larger than the sheet. Signs inside a word are joined by a thin pen stroke along the baseline; spaces between
+groups are not reliable word divisions.
+
+Task: identify every sign in the strip, from left to right, by comparing it with the reference
+rows. Look at each sign's parts: loops, crossbars, the stem going below the line, the hook.
+Take care with three look-alikes: a/n is a figure 4 whose stem ends in an open hook; c/p is a
+figure 4 with a closed loop hanging below; d/q has two stems. Signs in the "code" row stand
+for whole words; write "code" for any of them or for any other sign not on the sheet.
+
+Answer with ONLY one line: the sign names in order, separated by single spaces, using exactly the
+names on the sheet (a/n b/o c/p d/q e/r f/s g/t h/u i/x l/y m/z que qui pour et code). If you are torn
+between two names for a sign, write both joined by "|", the likelier first (e.g. e/r|b/o). Write
+"?" for a sign you cannot make out. Do not skip signs,
+do not add commentary.

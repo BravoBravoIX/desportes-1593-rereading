@@ -1,0 +1,96 @@
+{
+ "page": "f189",
+ "rule": "proposals made by code (the 10 windows the period French model finds least likely, with the single sign change that helps most); a change is applied only where the crop of the image shows the proposed sign; looked at by Claude, 18 Oct 2026",
+ "changes": [
+  {
+   "id": 0,
+   "line": 5,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "sign has a closed loop hanging below: c/p as read"
+  },
+  {
+   "id": 1,
+   "line": 17,
+   "old": "cp",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "a sign is there; deletion not supported"
+  },
+  {
+   "id": 2,
+   "line": 24,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "applied",
+   "seen": "figure 4 with an open hook, no closed loop below (a/n), followed by f/s f/s e/r c/p as read"
+  },
+  {
+   "id": 3,
+   "line": 9,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "sign joined to the next; loop or hook not clear; left as read"
+  },
+  {
+   "id": 4,
+   "line": 31,
+   "old": "mz",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "m/z sign clearly present"
+  },
+  {
+   "id": 5,
+   "line": 29,
+   "old": "cp",
+   "new": "an",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "closed loop below: c/p as read"
+  },
+  {
+   "id": 6,
+   "line": 7,
+   "old": "ly",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "l/y sign clearly present"
+  },
+  {
+   "id": 7,
+   "line": 4,
+   "old": "ly",
+   "new": "bo",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "l/y (open bracket) as read, not b/o"
+  },
+  {
+   "id": 8,
+   "line": 4,
+   "old": "mz",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "m/z sign present"
+  },
+  {
+   "id": 9,
+   "line": 30,
+   "old": "an",
+   "new": "nul",
+   "who": "Claude",
+   "decision": "rejected",
+   "seen": "two a/n signs side by side; deletion not supported"
+  }
+ ]
+}

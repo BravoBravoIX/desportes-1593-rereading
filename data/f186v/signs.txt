@@ -1,0 +1,36 @@
+# BnF fr. 3984 f. 186 verso: sign classes as read, one manuscript line per row (line number, tab, signs).
+# a/n = an, b/o = bo, ... (the letter pairs of the key); que qui pour et = word signs;
+# code = a code sign the published key does not give; ? = a sign not made out.
+01	er er cp hu er er cp hu er er fs code ly an cp ly hu fs cp an er gt dq er fs hu bo mz mz er fs ix bo ix an gt que ly an fs ix an cp bo er bo an an er er an ly bo er hu hu er er cp an er an hu gt er mz an ix fs que code
+02	an dq hu an er fs gt bo an an dq er dq er fs cp hu ix er er er an bo fs gt er er er fs gt an gt qui an mz er an er er bo ix gt er an an cp er er fs ly an er hu ix an er dq er ly an cp er er fs gt ix
+03	gt er hu an bo an cp dq bo an an er dq er gt bo hu gt ly er mz bo an dq er an er gt ly ix gt er gt bo hu fs fs er fs cp dq hu er er gt ix fs fs er mz er an fs et fs hu er ix cp er hu ly ix bo an fs
+04	bo hu er dq er cp er er fs bo an an er fs er bo er mz ix fs ly er hu er dq hu an ly ix gt er dq er fs gt er er mz ix an ix fs gt er er fs dq hu an gt er an an dq cp er ix an cp er qui an er fs er hu bo ix er an
+05	cp an fs hu bo er fs dq er er an an cp an ly dq er gt er bo cp bo bo an an er mz an ix fs bo an pour gt er an ix er ly ix er hu dq er fs er er hu ix gt er hu er fs cp er er an fs cp bo er hu er cp er
+06	an gt er er gt bo hu gt er fs fs bo er gt er fs dq er gt er mz cp er fs gt er fs pour fs an ix er er ly er fs bo hu hu er er an ix an que fs er hu ly er er mz er dq er que fs an cp er er fs er an cp er an fs ix cp
+07	dq er mz cp er fs cp hu er er dq hu an er cp er bo cp hu an ix an er dq hu er hu gt er ly er fs gt an gt que ly an er er ly ix gt ix bo an ix ly an er fs an hu gt cp bo ix an gt dq bo hu gt er er qui ly an ly
+08	er er an ix gt qui an er hu er hu ix ly ly er an gt fs er ly bo an ly er hu er cp bo hu fs gt hu mz er cp bo hu hu er ix er ly er hu er fs mz an ly ix cp er fs gt hu an mz bo an dq er dq er er fs an
+09	hu cp er gt er fs mz an an ix fs hu ix er cp an fs er hu er er an dq er er ly er hu er dq er fs fs er ix cp hu cp ix cp ix ly an er mz cp an dq hu er cp an fs dq er cp er er fs bo an an er fs pour cp bo hu
+10	bo ix er er fs cp er ix er er dq er bo bo an an er fs an cp bo bo gt ix er fs et fs er er bo an gt er er gt bo mz bo er er ly an hu bo an gt er que ly bo cp hu bo hu dq er bo ix gt gt er cp er
+11	er fs hu er ly mz fs an cp er dq er cp er hu ly ix fs hu er ly er fs dq hu er ly mz ix ly an ix an que mz an er dq hu er dq hu bo an an er hu er code dq er mz an gt an an an ix mz ix gt er et cp ly er hu fs
+12	gt an code ix er hu que code fs er hu gt gt cp bo mz er mz bo ly ly an fs an cp bo an dq bo an gt bo an gt hu fs er fs er fs mz ix an ix fs gt er er fs ly er hu er ix an gt er er er fs gt et dq er cp er
+13	hu ly mz bo an fs gt er er cp an er gt gt er er que er er ly ix gt ix er hu ly ix an hu ly ix er hu qui ly an ix an que cp hu er er an mz bo bo ix gt ix bo bo an gt er bo code cp er fs cp bo hu hu er er bo er an bo er
+14	bo bo fs gt an an er gt hu an an bo mz bo er er dq er cp er bo gt er fs gt an gt ix bo an fs an hu cp bo an gt er an ix er er et bo hu ix ly an ly an hu bo ix gt an hu ly mz bo ix er an dq er cp bo
+15	hu hu bo ix er er er fs cp er an dq er er fs ix code code an er fs ix fs hu fs gt cp bo ix an gt er an gt er er mz ix fs bo hu ly hu bo an an er hu er dq er code ly cp er fs gt er gt er an an er mz er
+16	an gt ix an gt er er er fs er ix er gt ly er dq er fs er fs an fs fs an ix er er fs an code code code an hu er cp bo er an hu gt bo hu cp dq er ly an an gt an gt er cp hu fs fs ix fs ix ix er an er cp
+17	an ix gt an bo ix fs dq er ly ix mz cp bo er gt hu an er
+18	fs ix er ly ly er fs an hu bo ix gt cp bo mz mz er mz bo ly ly an er gt ix fs ix cp er dq er an bo fs an mz ix fs cp er qui ly mz bo an gt fs bo an gt ly er hu er fs bo ix er ly er fs er hu cp bo mz mz er
+19	code code fs er fs gt mz bo an fs gt er er ly er hu er gt ix fs an pour dq er fs cp hu ix er er an bo fs gt er er cp an hu hu er er er fs gt an gt an hu cp er er ix hu dq ix cp er dq er ly hu bo an
+20	cp er hu er dq hu que fs ix er gt er et hu an mz bo an an er dq an hu gt er er fs cp hu bo fs er fs er ly ly er fs er fs gt bo an an er er bo ix gt mz ix ly et mz ix ly fs bo ix fs dq er ly an
+21	cp an gt ix er an cp er dq er code qui fs er fs gt cp bo er gt er er ix hu fs dq hu er ? an hu bo hu ly bo ix er an cp cp er cp gt er er code code pour er bo fs pour hu er hu que ly bo an ix
+22	fs er ix fs gt hu bo ix er ly er mz bo ix er an dq er ly er cp bo hu hu bo ix er dq er fs fs er an dq er er mz an ix fs bo an hu er hu gt que ly bo an cp er bo ix er er an cp an er bo ly er fs cp er mz
+23	mz er fs ix ly ly an hu bo ix an cp an er an an cp er dq er cp ly hu fs an dq ix bo hu fs gt er er fs bo ly an dq er fs gt er an fs qui an er an bo hu fs fs ix er er an gt ix an mz an ix
+24	fs cp an er bo ix fs gt er er er cp an hu bo ix er et qui bo an gt pour mz an ix ix mz er dq er an bo hu fs hu bo hu ly bo ix er gt er bo mz cp er er cp an er an hu an an gt hu er er mz er fs mz er
+25	gt er bo hu hu er er gt er fs hu bo hu fs er fs gt er an an gt er que ix er hu bo hu fs an ly er er mz an er dq hu er ly er fs dq er hu ix cp bo ix an fs que fs bo an gt ? er cp bo hu er ix er ly ?
+26	fs er an an er mz ix fs gt an an gt dq er ly an ly er gt gt er er dq er code que dq er cp er ly ly er dq er er an
+27	code dq er mz er fs an ix er er gt gt dq er fs er fs
+28	pour ix an gt er an gt ix bo an fs an code fs an fs ly ix an gt er er cp bo fs er er code code ix ly mz er cp er er an dq que cp pour ly hu ly que gt er fs cp bo mz cp an ix er mz er an gt
+29	et cp hu ix fs ly er fs cp hu bo fs er fs er an fs bo an gt er an gt er er er hu ly ix er an gt er ly mz gt er er mz er fs que fs an an fs ly er er er fs cp er cp gt dq er code ix ly an er fs er
+30	ix bo hu er er bo ix gt cp ly hu fs fs ix ly bo er gt er mz cp fs an fs er fs dq er fs cp er an fs an ly cp er ly an er hu ix an er dq er gt bo hu fs cp er hu ly ix dq er fs an mz an ix fs
+31	bo an mz er fs mz er fs ix ly an er fs gt er fs ix cp er hu er er fs cp er cp gt hu er hu ix qui ly ly hu ly an dq bo an an er hu an er an cp er er hu er an gt ix bo an an er cp dq er
+32	fs bo er er an fs an mz an hu hu cp ix fs er gt er an cp er que cp er cp hu mz bo bo ix an fs hu an cp hu an cp hu cp cp er an fs er er fs gt er er an er gt ix fs ix cp er pour cp an er hu er an ix er an
+33	fs er fs dq er fs fs er ix an fs an fs fs ix an dq bo bo ly ix gt er er ly er fs cp an gt an bo fs qui an er fs gt er gt bo hu fs ix bo hu er fs fs cp cp er ix cp cp ix cp an ly ly er fs pour ix cp

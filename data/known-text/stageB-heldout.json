@@ -1,0 +1,5800 @@
+{
+ "page": "BnF fr. 3984 f. 188 verso (Gallica view 352); known text from the decipherment f. 185",
+ "lines": [
+  14,
+  15,
+  16,
+  17,
+  20
+ ],
+ "sheet": "method/sheet-v2.png (made without these lines)",
+ "passes": {
+  "pass_a": "pieces of about 1150 px at 1.5x",
+  "pass_b": "about 500 px at 2.0x",
+  "pass_c": "about 600 px at 1.8x, first cut offset 250 px",
+  "vote": "two of three; where all three differ the candidates are kept and the decoder chooses"
+ },
+ "truth": {
+  "14": {
+   "text": "schaapresilallaavespresetpuisvintamontmartreendevotionou",
+   "classes": [
+    "fs",
+    "cp",
+    "hu",
+    "an",
+    "an",
+    "cp",
+    "er",
+    "er",
+    "fs",
+    "ix",
+    "ly",
+    "an",
+    "ly",
+    "ly",
+    "an",
+    "an",
+    "hu",
+    "er",
+    "fs",
+    "cp",
+    "er",
+    "er",
+    "fs",
+    "er",
+    "gt",
+    "cp",
+    "hu",
+    "ix",
+    "fs",
+    "hu",
+    "ix",
+    "an",
+    "gt",
+    "an",
+    "mz",
+    "bo",
+    "an",
+    "gt",
+    "mz",
+    "an",
+    "er",
+    "gt",
+    "er",
+    "er",
+    "er",
+    "an",
+    "dq",
+    "er",
+    "hu",
+    "bo",
+    "gt",
+    "ix",
+    "bo",
+    "an",
+    "bo",
+    "hu"
+   ]
+  },
+  "15": {
+   "text": "onfistfeuxdejoyetantquepourlislede#ellesepromectquelatresveserala",
+   "classes": [
+    "bo",
+    "an",
+    "fs",
+    "ix",
+    "fs",
+    "gt",
+    "fs",
+    "er",
+    "hu",
+    "ix",
+    "dq",
+    "er",
+    "ix",
+    "bo",
+    "ly",
+    "er",
+    "gt",
+    "an",
+    "an",
+    "gt",
+    "que",
+    "pour",
+    "ly",
+    "ix",
+    "fs",
+    "ly",
+    "er",
+    "dq",
+    "er",
+    "code",
+    "er",
+    "ly",
+    "ly",
+    "er",
+    "fs",
+    "er",
+    "cp",
+    "er",
+    "bo",
+    "mz",
+    "er",
+    "cp",
+    "gt",
+    "que",
+    "ly",
+    "an",
+    "gt",
+    "er",
+    "er",
+    "fs",
+    "hu",
+    "er",
+    "fs",
+    "er",
+    "er",
+    "an",
+    "ly",
+    "an"
+   ]
+  },
+  "16": {
+   "text": "paixsichascunseveultdespouillerdesoninterestonsepourroitprom",
+   "classes": [
+    "cp",
+    "an",
+    "ix",
+    "ix",
+    "fs",
+    "ix",
+    "cp",
+    "hu",
+    "an",
+    "fs",
+    "cp",
+    "hu",
+    "an",
+    "fs",
+    "er",
+    "hu",
+    "er",
+    "hu",
+    "ly",
+    "gt",
+    "dq",
+    "er",
+    "fs",
+    "cp",
+    "bo",
+    "hu",
+    "ix",
+    "ly",
+    "ly",
+    "er",
+    "er",
+    "dq",
+    "er",
+    "fs",
+    "bo",
+    "an",
+    "ix",
+    "an",
+    "gt",
+    "er",
+    "er",
+    "er",
+    "fs",
+    "gt",
+    "bo",
+    "an",
+    "fs",
+    "er",
+    "cp",
+    "bo",
+    "hu",
+    "er",
+    "er",
+    "bo",
+    "ix",
+    "gt",
+    "cp",
+    "er",
+    "bo",
+    "mz"
+   ]
+  },
+  "17": {
+   "text": "ectreungreposen#ousetrouvepeudedifficultezlesgouverneursdes",
+   "classes": [
+    "er",
+    "cp",
+    "gt",
+    "er",
+    "er",
+    "hu",
+    "an",
+    "gt",
+    "er",
+    "er",
+    "cp",
+    "bo",
+    "fs",
+    "er",
+    "an",
+    "code",
+    "bo",
+    "hu",
+    "fs",
+    "er",
+    "gt",
+    "er",
+    "bo",
+    "hu",
+    "hu",
+    "er",
+    "cp",
+    "er",
+    "hu",
+    "dq",
+    "er",
+    "dq",
+    "ix",
+    "fs",
+    "fs",
+    "ix",
+    "cp",
+    "hu",
+    "ly",
+    "gt",
+    "er",
+    "mz",
+    "ly",
+    "er",
+    "fs",
+    "gt",
+    "bo",
+    "hu",
+    "hu",
+    "er",
+    "er",
+    "an",
+    "er",
+    "hu",
+    "er",
+    "fs",
+    "dq",
+    "er",
+    "fs"
+   ]
+  },
+  "20": {
+   "text": "soitnendoubtezpasetsinouvellement#deboisdauphinaprisdeuxbonne",
+   "classes": [
+    "fs",
+    "bo",
+    "ix",
+    "gt",
+    "an",
+    "er",
+    "an",
+    "dq",
+    "bo",
+    "hu",
+    "bo",
+    "gt",
+    "er",
+    "mz",
+    "cp",
+    "an",
+    "fs",
+    "er",
+    "gt",
+    "fs",
+    "ix",
+    "an",
+    "bo",
+    "hu",
+    "hu",
+    "er",
+    "ly",
+    "ly",
+    "er",
+    "mz",
+    "er",
+    "an",
+    "gt",
+    "code",
+    "dq",
+    "er",
+    "bo",
+    "bo",
+    "ix",
+    "fs",
+    "dq",
+    "an",
+    "hu",
+    "cp",
+    "hu",
+    "ix",
+    "an",
+    "an",
+    "cp",
+    "er",
+    "ix",
+    "fs",
+    "dq",
+    "er",
+    "hu",
+    "ix",
+    "bo",
+    "bo",
+    "an",
+    "an",
+    "er"
+   ]
+  }
+ },
+ "readings": {
+  "pass_a": {
+   "14": [
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "final": "et"
+    },
+    {
+     "read": "qui",
+     "final": "qui"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    }
+   ],
+   "15": [
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "?",
+     "final": "?"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "final": "que"
+    },
+    {
+     "read": "pour",
+     "final": "pour"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "code",
+     "final": "code"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "final": "que"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    }
+   ],
+   "16": [
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    }
+   ],
+   "17": [
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    }
+   ],
+   "20": [
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "final": "et"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "qui",
+     "final": "qui"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    }
+   ]
+  },
+  "pass_b": {
+   "14": [
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "final": "et"
+    },
+    {
+     "read": "qui",
+     "final": "qui"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    }
+   ],
+   "15": [
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "final": "que"
+    },
+    {
+     "read": "pour",
+     "final": "pour"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "code",
+     "final": "code"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "final": "que"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    }
+   ],
+   "16": [
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    }
+   ],
+   "17": [
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    }
+   ],
+   "20": [
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "final": "et"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "qui",
+     "final": "qui"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    }
+   ]
+  },
+  "pass_c": {
+   "14": [
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "?",
+     "final": "?"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "final": "et"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    }
+   ],
+   "15": [
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "final": "que"
+    },
+    {
+     "read": "pour",
+     "final": "pour"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "que",
+     "final": "que"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "final": "que"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    }
+   ],
+   "16": [
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "?",
+     "final": "?"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    }
+   ],
+   "17": [
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    }
+   ],
+   "20": [
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "final": "et"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "mz",
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "final": "gt"
+    },
+    {
+     "read": "qui",
+     "final": "qui"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "final": "hu"
+    }
+   ]
+  },
+  "vote": {
+   "14": [
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 2,
+      "fs": 1
+     },
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "votes": {
+      "et": 3
+     },
+     "final": "et"
+    },
+    {
+     "read": "qui",
+     "votes": {
+      "qui": 2,
+      "cp": 1
+     },
+     "final": "qui"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "mz",
+     "votes": {
+      "mz": 3
+     },
+     "final": "mz"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "mz",
+     "votes": {
+      "mz": 3
+     },
+     "final": "mz"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 2,
+      "an": 1
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "bo": 1,
+      "er": 2
+     },
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "cp": 1,
+      "an": 2
+     },
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    }
+   ],
+   "15": [
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "?": 1,
+      "ix": 2
+     },
+     "final": "ix"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 1,
+      "cp": 1,
+      "an": 1
+     },
+     "candidates": [
+      "an",
+      "cp",
+      "dq"
+     ],
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 2,
+      "dq": 1
+     },
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "votes": {
+      "que": 3
+     },
+     "final": "que"
+    },
+    {
+     "read": "pour",
+     "votes": {
+      "pour": 3
+     },
+     "final": "pour"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "code",
+     "votes": {
+      "code": 2,
+      "que": 1
+     },
+     "final": "code"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "votes": {
+      "mz": 3
+     },
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "que",
+     "votes": {
+      "que": 3
+     },
+     "final": "que"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "er": 1,
+      "bo": 2
+     },
+     "final": "bo"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 2,
+      "mz": 1
+     },
+     "final": "cp"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 1,
+      "er": 1,
+      "mz": 1
+     },
+     "candidates": [
+      "cp",
+      "er",
+      "mz"
+     ],
+     "final": "er"
+    }
+   ],
+   "16": [
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 2,
+      "dq": 1
+     },
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "cp": 1,
+      "an": 2
+     },
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 2,
+      "?": 1
+     },
+     "final": "ix"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 2,
+      "cp": 1
+     },
+     "final": "an"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 1,
+      "hu": 1,
+      "bo": 1
+     },
+     "candidates": [
+      "bo",
+      "er",
+      "hu"
+     ],
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "mz",
+     "votes": {
+      "mz": 3
+     },
+     "final": "mz"
+    }
+   ],
+   "17": [
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 2,
+      "fs": 1
+     },
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "an": 1,
+      "dq": 2
+     },
+     "final": "dq"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    }
+   ],
+   "20": [
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 2,
+      "cp": 1
+     },
+     "final": "an"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "nul": 1,
+      "gt": 2
+     },
+     "final": "gt"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "et",
+     "votes": {
+      "et": 3
+     },
+     "final": "et"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 2,
+      "an": 1
+     },
+     "final": "dq"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "ly",
+     "votes": {
+      "ly": 3
+     },
+     "final": "ly"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "mz",
+     "votes": {
+      "mz": 3
+     },
+     "final": "mz"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "gt",
+     "votes": {
+      "gt": 3
+     },
+     "final": "gt"
+    },
+    {
+     "read": "qui",
+     "votes": {
+      "qui": 3
+     },
+     "final": "qui"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "nul": 1,
+      "an": 2
+     },
+     "final": "an"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 2,
+      "cp": 1
+     },
+     "final": "an"
+    },
+    {
+     "read": "an",
+     "votes": {
+      "an": 3
+     },
+     "final": "an"
+    },
+    {
+     "read": "cp",
+     "votes": {
+      "cp": 3
+     },
+     "final": "cp"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "fs",
+     "votes": {
+      "fs": 3
+     },
+     "final": "fs"
+    },
+    {
+     "read": "dq",
+     "votes": {
+      "dq": 3
+     },
+     "final": "dq"
+    },
+    {
+     "read": "er",
+     "votes": {
+      "er": 3
+     },
+     "final": "er"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    },
+    {
+     "read": "ix",
+     "votes": {
+      "ix": 3
+     },
+     "final": "ix"
+    },
+    {
+     "read": "bo",
+     "votes": {
+      "bo": 3
+     },
+     "final": "bo"
+    },
+    {
+     "read": "hu",
+     "votes": {
+      "hu": 3
+     },
+     "final": "hu"
+    }
+   ]
+  }
+ }
+}
