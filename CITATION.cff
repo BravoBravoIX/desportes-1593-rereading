@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Independent re-reading of the Desportes cipher letters of 22 July 1593 (BnF fr. 3984 ff. 186, 189)"
+authors:
+  - family-names: Burford
+    given-names: Brett
+version: "1.0"
+doi: 10.5281/zenodo.23470957
+date-released: 2026-10-19
+repository-code: "https://github.com/BravoBravoIX/desportes-1593-rereading"
