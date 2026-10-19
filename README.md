@@ -1,5 +1,7 @@
 # An independent re-reading of the Baudouin-Desportes cipher letters of 22 July 1593
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23470957.svg)](https://doi.org/10.5281/zenodo.23470957)
+
 **BnF, Français 3984, ff. 186 and 189.** Two letters written in Paris on 22 July 1593, in the Catholic League's polyphonic cipher: one to Cardinal Pietro Aldobrandini (f. 186, recto and verso), one to Girolamo Frachetta (f. 189).
 
 > **The first reading of these letters is Paolo Rosson's**, published on 1 October 2026: <https://github.com/pangoleen/desportes-1593>. It was announced by Satoshi Tomokiyo: <https://cryptiana.blogspot.com/2026/10/did-fran-vi-break-polyphonic-cipher.html>.
@@ -125,3 +127,7 @@ Prepared by Brett Burford, October 2026.
 - Text and data (everything except `decode/` and the images noted below): [Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0).
 - `decode/` and `method/score_heldout.py`: [MIT licence](decode/LICENSE).
 - Images in `method/` (`sheet-v2.png`, `sheet-v3.png`, `example-input-*.png`) are crops of BnF, Français 3984, f. 188 verso, from Gallica. They are not covered by CC BY: Gallica's terms allow free non-commercial reuse with the source line "Source gallica.bnf.fr / BnF"; commercial reuse needs the BnF's permission.
+
+## How to cite
+
+Burford, B. (2026). Independent re-reading of the Desportes cipher letters of 22 July 1593 (BnF fr. 3984 ff. 186, 189). Zenodo. https://doi.org/10.5281/zenodo.23470957 (this DOI always points to the latest version; each release has its own version DOI on Zenodo).
