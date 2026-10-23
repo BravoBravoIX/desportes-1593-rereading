@@ -2,9 +2,9 @@
 
 > **Independent re-reading; first reading published by Paolo Rosson, 1 Oct 2026 (pangoleen/desportes-1593).** Written before his text was opened; the comparison is in [comparison-rosson.md](comparison-rosson.md).
 >
-> **Status of this letter:** f. 186 verso: one full reader pass plus a second pass on lines 1-11, no vote (about 0.88 per sign on known text for a single pass). f. 186 recto: one reader pass (the last line two-thirds unread, marked ?), a second pass on lines 12-17, no vote; the recto's clear text was read by eye by Claude.
+> **Status of this letter:** f. 186 verso: one full reader pass plus a second pass on lines 1-11, no vote (about 0.88 per sign on known text for a single pass). f. 186 recto: one reader pass (the last line two-thirds unread, marked ?), a second pass on lines 12-17, no vote; the recto's clear text was read by Claude.
 
-**Label: translation (machine, checked by Claude; not literal plaintext).** Made by Claude from the Normalised text of [f186-french.md](f186-french.md). The cipher parts were read with one or two reader passes only (about 0.88 per sign on known text), so they are rougher than f. 189. [clear] = the letter's own clear French, read by eye by Claude. Square brackets: [supplied]; [?] doubtful; [...] not understood; {code} = code sign.
+**Label: translation by Claude (not literal plaintext).** Made from the Normalised text of [f186-french.md](f186-french.md). The cipher parts were read with one or two reader passes only (about 0.88 per sign on known text), so they are rougher than f. 189. [clear] = the letter's own clear French, read by Claude. Square brackets: [supplied]; [?] doubtful; [...] not understood; {code} = code sign.
 
 ## Translation
 
@@ -54,7 +54,7 @@
 
 ## Doubtful stretches
 
-The cipher of both pages was read with one or two passes only; the readable phrases above are those whose French is clear in the key's output, and everything between them is uncertain. "As king" (verso 21) rests on `pour ros` read as *pour roy*; "peace" (recto 26) and "pontificate" (recto 31) rest on partly garbled words. The clear text of the recto was read by eye and has its own doubtful words, marked [?] in the French file.
+The cipher of both pages was read with one or two passes only; the readable phrases above are those whose French is clear in the key's output, and everything between them is uncertain. "As king" (verso 21) rests on `pour ros` read as *pour roy*; "peace" (recto 26) and "pontificate" (recto 31) rest on partly garbled words. The clear text of the recto was read by Claude and has its own doubtful words, marked [?] in the French file.
 
 ## Notes (only what is certain)
 

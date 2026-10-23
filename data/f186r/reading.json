@@ -1,6 +1,6 @@
 {
  "page": "BnF fr. 3984 f. 186 recto",
- "status": "one reader pass (last line two-thirds unread, marked ?), a second pass on lines 12-17; no vote; the clear text was read by eye",
+ "status": "one reader pass (last line two-thirds unread, marked ?), a second pass on lines 12-17; no vote; the clear text was read by Claude",
  "fields": {
   "line": "manuscript line (1-based, as in reading/*.md)",
   "voted": "class after the vote of the passes (two of three; with two passes agreement; with one pass as read)",

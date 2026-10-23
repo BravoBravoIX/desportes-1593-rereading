@@ -4,7 +4,7 @@
 >
 > **Status of this page:** three reader passes voted on all 33 lines (the level measured at 0.90 per sign on known text).
 
-**Label: translation (machine, checked by Claude; not literal plaintext).** Made by Claude from the Normalised text of [f189-french.md](f189-french.md). The French itself is a key-applied reading at about 0.90 per sign on known text, so whole phrases may be wrong. Square brackets: [words supplied for sense]; [?] doubtful; [...] not understood; {code} = a code sign for a name or word that the published key does not give. Line numbers refer to the manuscript lines in the French file.
+**Label: translation by Claude (not literal plaintext).** Made from the Normalised text of [f189-french.md](f189-french.md). The French itself is a key-applied reading at about 0.90 per sign on known text, so whole phrases may be wrong. Square brackets: [words supplied for sense]; [?] doubtful; [...] not understood; {code} = a code sign for a name or word that the published key does not give. Line numbers refer to the manuscript lines in the French file.
 
 ## Translation
 

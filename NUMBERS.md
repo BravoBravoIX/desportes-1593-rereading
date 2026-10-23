@@ -9,7 +9,7 @@ Every number in [README.md](README.md) and [method/README.md](method/README.md),
 | 33 lines; three passes voted on f. 189 | lines and passes per line | `data/f189/signs.txt` (33 rows); `data/f189/reading.json` `passes_per_line` |
 | f. 186 verso: two passes on lines 1-11, one elsewhere; recto: two passes on 12-17, one elsewhere | passes per line | `data/f186v/reading.json`, `data/f186r/reading.json` `passes_per_line` |
 | 1245 aligned signs, 858 kept | stage A alignment of the known text to f. 188v | 858 = number of entries in `data/known-text/f188v-labels.json` `signs`; 1245 from our stage A record (stated in the same file's `note`) |
-| 116 of 120 (96.7 %) | stage A check by eye of a seeded sample of labels | our stage A record (also in `data/known-text/f188v-labels.json` `note`); the per-label verdicts were not saved (see `method/README.md`) |
+| 116 of 120 (96.7 %) | stage A check of a seeded sample of labels, by Claude | our stage A record (also in `data/known-text/f188v-labels.json` `note`); the per-label verdicts were not saved (see `method/README.md`) |
 | 294 known signs | held-out lines 14-17, 20 of f. 188v | `data/known-text/scores/*.score.json` `signs_truth`; recomputed by `method/score_heldout.py` |
 | 0.878 / 0.888 / 0.878 | sign accuracy of passes a / b / c on held-out lines | `data/known-text/scores/heldout-pass-a.score.json`, `-b`, `-c` `sign_acc` (0.8776, 0.8878, 0.8776); recomputed by `method/score_heldout.py` |
 | 0.901 | sign accuracy of the three-pass vote | `data/known-text/scores/heldout-vote.score.json` `sign_acc` (0.9014); recomputed by `method/score_heldout.py` (29 edits / 294) |

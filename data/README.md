@@ -14,6 +14,6 @@ Per page (`f189`, `f186r` = f. 186 recto, `f186v` = f. 186 verso):
 
 Line numbers are the manuscript lines as numbered in `../reading/*-french.md`. On f. 186 recto the cipher starts on line 12; lines 1-11 are clear text.
 
-`known-text/`: the material used to measure the reader. `f185-decipherment.txt` is our reading by eye of the decipherment made at the time (f. 185); `f188v-cipher-passage.txt` the passages of it that correspond to the cipher of f. 188v; `f188v-labels.json` the known signs of f. 188v after alignment (stage A); `stageB-heldout.json` the known classes of the held-out lines and the four readings of them (passes a, b, c and the vote), sign by sign; `stageB-heldout-alignment.txt` the vote aligned to the known text; `scores/` the recorded scores, including letter accuracy and bits per letter.
+`known-text/`: the material used to measure the reader. `f185-decipherment.txt` is the reading, by Claude, of the decipherment made at the time (f. 185); `f188v-cipher-passage.txt` the passages of it that correspond to the cipher of f. 188v; `f188v-labels.json` the known signs of f. 188v after alignment (stage A); `stageB-heldout.json` the known classes of the held-out lines and the four readings of them (passes a, b, c and the vote), sign by sign; `stageB-heldout-alignment.txt` the vote aligned to the known text; `scores/` the recorded scores, including letter accuracy and bits per letter.
 
 `compare-rosson/`: per-line counts of the comparison with Rosson's reading (no text of his).

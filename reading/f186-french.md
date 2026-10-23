@@ -3,7 +3,7 @@
 > **Independent re-reading; first reading published by Paolo Rosson, 1 Oct 2026 (pangoleen/desportes-1593).**
 > Our reading was made before his text was opened and was not changed afterwards. It is a machine reading with the published key; where the two readings differ, his is the better one (see [comparison-rosson.md](comparison-rosson.md)).
 >
-> **Status of this letter:** f. 186 verso: one full reader pass plus a second pass on lines 1-11, no vote (about 0.88 per sign on known text for a single pass). f. 186 recto: one reader pass (the last line two-thirds unread, marked ?), a second pass on lines 12-17, no vote; the recto's clear text was read by eye.
+> **Status of this letter:** f. 186 verso: one full reader pass plus a second pass on lines 1-11, no vote (about 0.88 per sign on known text for a single pass). f. 186 recto: one reader pass (the last line two-thirds unread, marked ?), a second pass on lines 12-17, no vote; the recto's clear text was read by Claude.
 
 | | |
 |---|---|
@@ -11,7 +11,7 @@
 | Manuscript | BnF Français 3984, f. 186 recto (clear opening, then cipher with short clear phrases) and verso (cipher) |
 | Images | Gallica ark:/12148/btv1b9060633d, views 347 (recto) and 348 (verso) (https://gallica.bnf.fr/ark:/12148/btv1b9060633d/f347.item) |
 | Key | Tomokiyo's published Catholic League polyphonic key (cryptiana, mayenne.htm, 2023); we did not derive it |
-| Method | As for f. 189 (reference sheet v3, Claude Opus 5.5 reader, vote where there were passes to vote, correction pass, 5-gram polyphone choice recorded in the key, word breaks by code). The recto's lines curve; the page was straightened first. Clear text of the recto read by eye by Claude (doubtful words [?]); it is not cipher plaintext. See [../method/README.md](../method/README.md) |
+| Method | As for f. 189 (reference sheet v3, Claude Opus 5.5 reader, vote where there were passes to vote, correction pass, 5-gram polyphone choice recorded in the key, word breaks by code). The recto's lines curve; the page was straightened first. Clear text of the recto read by Claude, doubtful words marked [?]; it is not cipher plaintext. See [../method/README.md](../method/README.md) |
 | Passes actually made | **The three-pass vote was not made on this letter** (the reading was stopped there). Verso: lines 1-11 two passes (a, b), lines 12-33 one pass (a). Recto: lines 12-17 two passes, lines 18-51 one pass, line 52 one pass with two of three pieces unread (marked ?). Correction pass: 10 windows per page looked at, 1 change applied on the verso, none on the recto ([../data/f186v/corrections.json](../data/f186v/corrections.json), [../data/f186r/corrections.json](../data/f186r/corrections.json)) |
 | Reader accuracy on known text | f. 188v held-out lines: single pass 0.878-0.888 per sign; three-pass vote 0.901 (not reached here); two-pass agreement not measured |
 | Controls (same decoder) | recto: real 2.724 bits/letter, cover 0.645; shuffled 4.129 / 4.208 / 4.160; held-out last fifth 2.658, cover 0.675. Verso: real 2.733, cover 0.655; shuffled 4.222 / 4.167 / 4.274; held-out last fifth 2.888, cover 0.596 ([../data/f186r/controls.json](../data/f186r/controls.json), [../data/f186v/controls.json](../data/f186v/controls.json)) |

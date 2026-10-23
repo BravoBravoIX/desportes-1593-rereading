@@ -2,13 +2,13 @@
 
 > **First reading: Paolo Rosson, 1 Oct 2026 (GitHub pangoleen/desportes-1593, `reading/f189.md`, `reading/f186.md`, version 0.2; repository head 33c854a, 6 Oct 2026), acknowledged by Tomokiyo 3-4 Oct 2026.** Ours ([f189-french.md](f189-french.md), [f186-french.md](f186-french.md)) was written before his text was opened and was not changed after. His files were read on 18 Oct 2026; they are not reproduced here, and only short passages are quoted.
 >
-> **Status of our pages:** f. 189: three reader passes voted on all 33 lines (the level measured at 0.90 per sign on known text). f. 186 verso: one full pass plus a second on lines 1-11, no vote (about 0.88 per sign for a single pass). f. 186 recto: one pass (last line two-thirds unread), a second on lines 12-17, no vote; clear text read by eye.
+> **Status of our pages:** f. 189: three reader passes voted on all 33 lines (the level measured at 0.90 per sign on known text). f. 186 verso: one full pass plus a second on lines 1-11, no vote (about 0.88 per sign for a single pass). f. 186 recto: one pass (last line two-thirds unread), a second on lines 12-17, no vote; clear text read by Claude.
 
 ## How the comparison was made
 
 - **Sign classes, not letters.** Each of his letters was mapped back to the published key's sign class (a/n, b/o, ..., u/v and i/j merged); his clear passages `{..}` and editorial brackets `[..]` were removed. Ours: the final sign classes in [../data/](../data/), word signs (que, qui, pour, et) spelt out, code and unread signs left out. Per line: difflib agreement of the two class strings, and on the matched classes how often the letter chosen inside the pair is the same (numbers in [../data/compare-rosson/](../data/compare-rosson/)).
 - His line numbering is the same as ours (recto 0-51 and verso 0-32 in his file = our lines 1-52 and 1-33; f. 189 his 1-33 = ours 1-33).
-- Where they differ, a handful of places were looked at in the image (crops of the straightened pages). Most were not looked at; the table says only how far the readings agree.
+- Where they differ, a handful of places were looked at in the image (crops of the straightened pages) by Claude. Most were not looked at; the table says only how far the readings agree.
 
 ## Result in plain words
 
@@ -28,7 +28,7 @@
 | f. 189, 5 (third) | `espart d` | "espargne" | a blot over one sign | not decidable from the image; his fits the sense |
 | f. 186 verso, 9 | `desfri pu pi cila emp` | "dessein vain il ne man" | four figure-4 signs with a hook that nearly closes | his by sense; the image is borderline for each sign |
 | f. 186 recto, 23 (end) | `dimpac` | "diman-c" | three figure-4 signs, the last with a closed loop | his: hooks, then a closed loop (a/n, a/n, c/p) |
-| f. 186 recto, 18 (clear) | "mal aisé il conte[?] deux[?] a ung benignité[?]" | "mal aisé de contredire a ung bruit" | the clear words | his (my eye reading was wrong) |
+| f. 186 recto, 18 (clear) | "mal aisé il conte[?] deux[?] a ung benignité[?]" | "mal aisé de contredire a ung bruit" | the clear words | his (our reading of the clear text was wrong) |
 | f. 186 recto, 14 (clear) | "il nous[?] [?] & passions" | "de nos humeurs et passions" | the clear words | his |
 | f. 186 recto, 13 (clear) | "qu'icy vostre" | "qui icy reste" (Tomokiyo "en reste") | the clear word after *icy* | not decided |
 

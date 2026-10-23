@@ -14,7 +14,7 @@
 |---|---|---|
 | f. 189 | three reader passes, voted, on all 33 lines | 0.90 per sign on known text (the voted level) |
 | f. 186 verso | one full reader pass, plus a second pass on lines 1-11; no vote | about 0.88 per sign on known text (single pass) |
-| f. 186 recto | one reader pass (the last line two-thirds unread, marked `?`), plus a second pass on lines 12-17; no vote. The recto's clear (uncoded) text was read by eye | about 0.88 per sign on known text (single pass) |
+| f. 186 recto | one reader pass (the last line two-thirds unread, marked `?`), plus a second pass on lines 12-17; no vote. The recto's clear (uncoded) text was read by Claude | about 0.88 per sign on known text (single pass) |
 
 ## What is here
 
@@ -23,7 +23,7 @@
 | [reading/](reading/) | The French text of each page (Literal = exactly what the key gives; Normalised = the same letters with word breaks made by code), an English translation of each letter, and the comparison with Rosson's reading |
 | [data/](data/) | Per page: the signs as read (`signs.txt`, one manuscript line per row; `reading.json` with the votes for every sign), the key with the letter chosen at every occurrence (`key.json`), the literal plaintext, corrections and controls. Also the known-answer material used to measure the reader (`data/known-text/`) and the per-line comparison counts (`data/compare-rosson/`) |
 | [decode/](decode/) | `decode.py`, a short stand-alone script (Python 3 standard library) that applies `key.json` to `signs.txt`, and `check.sh`, which reproduces all three pages byte for byte |
-| [method/](method/) | How the signs were read (the prompt given to Claude, the reference sheet of signs, an example input), the vote, the correction rule, word breaks, the controls, and the measurement on known text |
+| [method/](method/) | How the signs were read (the reference sheet of signs), the vote, the correction rule, word breaks, the controls, and the measurement on known text |
 | [NUMBERS.md](NUMBERS.md) | Where every number in this README comes from |
 
 ## The letters and the images
@@ -44,16 +44,18 @@ The key is the Catholic League polyphonic key reconstructed and published by **S
 
 ## The method in plain words
 
-1. **A page with a known answer.** The sister letter f. 188 has a decipherment written at the time (f. 185). We read that decipherment and lined it up with the cipher signs of f. 188 verso. That gave signs whose meaning is known. A check by eye of 120 of those labels, chosen at random with a fixed seed, found 116 right.
+1. **A page with a known answer.** The sister letter f. 188 has a decipherment written at the time (f. 185). That decipherment was read from the image by Claude and lined up by code with the cipher signs of f. 188 verso. That gave signs whose meaning is known. Claude checked 120 of those labels against the image, chosen at random with a fixed seed, and found 116 right; this check comes from the same model that reads the signs.
 2. **A reference sheet.** From those known signs we cut a sheet showing several examples of each sign.
 3. **Claude reads the signs.** Each line of a page was cut into pieces, and each piece was shown to Claude (Anthropic, model Opus 5.5) under the reference sheet, with the instruction to name every sign from left to right. This was done three times with different cuts and magnifications.
 4. **Vote.** Where two of the three readings agree, that sign is taken.
-5. **Corrections, only where the image supports them.** Code pointed out the 10 least likely stretches of each page; each proposed change was looked at in the image and applied only if the image shows it (2 changes applied in all).
+5. **Corrections, only where the image supports them.** Code pointed out the 10 least likely stretches of each page; each proposed change was looked at in the image by Claude and applied only if the image shows it (2 changes applied in all).
 6. **Key applied mechanically.** The published key turns each sign into its two possible letters; a statistical model of period French picks one at each place, and every pick is written into `key.json`. From then on the decode is a lookup that anyone can repeat with `decode/decode.py`.
 7. **Word breaks by code** from a period French dictionary, for the Normalised text only. No letter is changed.
 8. **Controls.** Every page was also decoded with its signs shuffled into a random order, in the same way. A real page reads as French; a shuffled one does not.
 
 Details are in [method/README.md](method/README.md).
+
+**How AI was used.** The cipher signs were read from the page images by Claude (Anthropic, model Opus 5.5): three passes combined by vote on f. 189, and one pass with a second on some lines on f. 186. On known text (five held-out lines of f. 188 verso, 294 signs), a single pass reads 87.8–88.8 % of the signs correctly and the vote 90.1 %. Claude also read the decipherment of f. 185 used for calibration and the clear text of f. 186 recto, checked a random sample of 120 calibration labels (116 right; this check comes from the same model as the reading), and checked each correction against the image. The English is a translation by Claude, kept separate from the literal French. An AI coding assistant (Claude Code) was used. The decoding and the known-text measurement rerun without any AI service; Claude's readings are stored as data.
 
 ## Measured numbers
 
@@ -77,17 +79,17 @@ So even with the vote, **about one sign in ten is misread**, and the letter choi
 
 That is, about 2.7 against 4.2 on every page.
 
-**Agreement with Rosson's first reading** (sign classes, read independently): 95.9 % (f. 189), 93.1 % (f. 186 recto), 93.8 % (f. 186 verso). Where the signs agree, the same letter of the pair is chosen 93.5 %, 94.3 % and 93.8 % of the time. The details, and the places looked at in the image, are in [reading/comparison-rosson.md](reading/comparison-rosson.md).
+**Agreement with Rosson's first reading** (sign classes, read independently): 95.9 % (f. 189), 93.1 % (f. 186 recto), 93.8 % (f. 186 verso). Where the signs agree, the same letter of the pair is chosen 93.5 %, 94.3 % and 93.8 % of the time. The details, and the places looked at in the image (by Claude), are in [reading/comparison-rosson.md](reading/comparison-rosson.md).
 
 ## Limitations
 
 - **This is a machine reading.** About 1 sign in 10 is wrong at the measured level (f. 189), and somewhat more on f. 186, which was not voted.
-- **No palaeographer has checked it.** The clear text of f. 186 recto was read by eye by Claude and has doubtful words marked `[?]`.
+- **It awaits a palaeographer's reading.** The clear text of f. 186 recto was read by Claude and has doubtful words marked `[?]`.
 - **The letter within a pair is chosen by a 5-gram model**, which sometimes picks the wrong one where a word-level reading would not (e.g. *tentilhomme* for *gentilhomme*).
 - **Our reader systematically reads some a/n signs as c/p.** In this hand the two look alike.
 - **Code signs are not identified** (`{code}`); Rosson identifies most of them from the sister letters.
 - **Rosson's reading is better than ours** wherever the two differ and we looked. Use his for the text; use ours as an independent confirmation.
-- The English translations are Claude's, from our Normalised French. They are not literal plaintext, and they skip the stretches that do not read as French.
+- The English translations are by Claude, from our Normalised French. They are not literal plaintext, and they skip the stretches that do not read as French.
 
 ## How to reproduce the decode
 
@@ -118,7 +120,7 @@ What cannot be repeated from this repository alone: Claude's sign readings thems
 - **Paolo Rosson**, for the first reading of these letters (<https://github.com/pangoleen/desportes-1593>). Only a few short quotations from it appear here, in `reading/comparison-rosson.md`.
 - **Satoshi Tomokiyo**, for the published key and his catalogue of these letters (<https://cryptiana.web.fc2.com/code/mayenne.htm>), and for announcing Rosson's reading.
 - **Bibliothèque nationale de France / Gallica**, for the manuscript images. Source gallica.bnf.fr / BnF.
-- **Anthropic's Claude** (model Opus 5.5) was used as the sign reader, for the correction checks, for reading the clear text and the f. 185 decipherment by eye, and for the English translations.
+- **Anthropic's Claude** read the signs (model Opus 5.5), read the f. 185 decipherment and the clear text, checked the known-sign labels and the corrections, and made the English translations; see "How AI was used" above.
 
 Prepared by Brett Burford, October 2026.
 
@@ -126,7 +128,7 @@ Prepared by Brett Burford, October 2026.
 
 - Text and data (everything except `decode/` and the images noted below): [Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0).
 - `decode/` and `method/score_heldout.py`: [MIT licence](decode/LICENSE).
-- Images in `method/` (`sheet-v2.png`, `sheet-v3.png`, `example-input-*.png`) are crops of BnF, Français 3984, f. 188 verso, from Gallica. They are not covered by CC BY: Gallica's terms allow free non-commercial reuse with the source line "Source gallica.bnf.fr / BnF"; commercial reuse needs the BnF's permission.
+- Images in `method/` (`sheet-v2.png`, `sheet-v3.png`) are crops of BnF, Français 3984, f. 188 verso, from Gallica. They are not covered by CC BY: Gallica's terms allow free non-commercial reuse with the source line "Source gallica.bnf.fr / BnF"; commercial reuse needs the BnF's permission.
 
 ## How to cite
 

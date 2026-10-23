@@ -8,9 +8,9 @@ The letters use the Catholic League polyphonic cipher of 1592-1593, as published
 
 ## Step 1: a known-answer page (stage A)
 
-The sister letter of the same date, f. 188 (Gallica views 351-352), has cipher passages on its verso, and a decipherment made at the time survives on f. 185 (views 343-345). We read that decipherment by eye ([../data/known-text/f185-decipherment.txt](../data/known-text/f185-decipherment.txt)), took the passages that correspond to the cipher ([../data/known-text/f188v-cipher-passage.txt](../data/known-text/f188v-cipher-passage.txt)), and aligned the known text to the signs of f. 188v line by line with a forced-alignment model (line starts read by eye). That gave 1245 aligned signs; a confidence filter kept 858 ([../data/known-text/f188v-labels.json](../data/known-text/f188v-labels.json), pixel positions on the full Gallica image).
+The sister letter of the same date, f. 188 (Gallica views 351-352), has cipher passages on its verso, and a decipherment made at the time survives on f. 185 (views 343-345). That decipherment was read by Claude ([../data/known-text/f185-decipherment.txt](../data/known-text/f185-decipherment.txt)), took the passages that correspond to the cipher ([../data/known-text/f188v-cipher-passage.txt](../data/known-text/f188v-cipher-passage.txt)), and aligned the known text to the signs of f. 188v line by line with a forced-alignment model (line starts read from the image by Claude). That gave 1245 aligned signs; a confidence filter kept 858 ([../data/known-text/f188v-labels.json](../data/known-text/f188v-labels.json), pixel positions on the full Gallica image).
 
-Check: a seeded random sample of 120 kept labels was looked at by eye, sign by sign, in crops: 116 were right (96.7 %). The per-label verdicts of that check were not saved in a file; the count is from our working notes.
+Check: a seeded random sample of 120 kept labels was looked at sign by sign, in crops, by Claude: 116 were right (96.7 %); this check comes from the same model that reads the signs. The per-label verdicts of that check were not saved in a file; the count is from our working notes.
 
 ## Step 2: the reference sheet
 
@@ -23,9 +23,7 @@ Image source: crops of BnF, Français 3984, f. 188 verso, from Gallica (ark:/121
 
 ## Step 3: Claude reads the signs
 
-Each manuscript line was cut into pieces at low-ink columns, enlarged, and placed under the reference sheet in one image. Claude (model `claude-opus-5-5`, Anthropic API, one call per image) was asked to name every sign in the strip, left to right, using the names on the sheet. The prompt is in [prompt.txt](prompt.txt). The answer is a single line of sign names; where the model was torn between two it could give both (`e/r|b/o`), and `?` for a sign it could not make out. The answer was treated as data only and parsed into sign classes.
-
-An example input image and the answer to it: [example-input-f188v-line14-piece0.png](example-input-f188v-line14-piece0.png), [example-answer-f188v-line14-piece0.txt](example-answer-f188v-line14-piece0.txt). That example uses sheet v2. To our knowledge the same prompt text was used for every pass; our records keep the prompt in the script rather than with each call.
+Each manuscript line was cut into pieces at low-ink columns, enlarged, and placed under the reference sheet in one image. Claude (model `claude-opus-5-5`, Anthropic API, one call per image) was asked to name every sign in the strip, left to right, using the names on the sheet. The answer is a single line of sign names; where the model was torn between two it could give both (`e/r|b/o`), and `?` for a sign it could not make out. The answer was treated as data only and parsed into sign classes.
 
 Three passes were made with different cuts and magnifications, so that a sign split by a cut in one pass is whole in another:
 
@@ -65,7 +63,7 @@ vote     29 edits / 294 known signs -> sign accuracy 0.9014
 
 `python3 method/score_heldout.py --align` prints the sign-by-sign alignment of the vote against the known text (saved in [../data/known-text/stageB-heldout-alignment.txt](../data/known-text/stageB-heldout-alignment.txt)). The decode's letter accuracy (0.826 for the vote; 0.930 when the known signs themselves are decoded, which is the ceiling set by the 5-gram letter choice) and the bits per letter need the language model; they are in [../data/known-text/scores/](../data/known-text/scores/).
 
-A second set of lines (6 and 10-13, 312 signs, read with sheet v3) scored lower, 0.792 per sign, but there the known answer is partly at fault: the decipherment differs from the cipher in places (spellings, and code signs where the decipherer wrote words out). Looked at by eye, most of those disagreements were not reader errors; we did not keep a record of that adjudication, so 0.792 is the only recorded number.
+A second set of lines (6 and 10-13, 312 signs, read with sheet v3) scored lower, 0.792 per sign, but there the known answer is partly at fault: the decipherment differs from the cipher in places (spellings, and code signs where the decipherer wrote words out). Looked at by Claude, most of those disagreements were not reader errors; we did not keep a record of that adjudication, so 0.792 is the only recorded number.
 
 The reader's main confusion is between a/n and c/p (both a figure 4; c/p has a closed loop below, a/n an open hook that in this hand often nearly closes).
 
@@ -76,6 +74,6 @@ A decoder with a language model makes almost anything look a little like its lan
 ## What this does not show
 
 - It is a machine reading. About one sign in ten is wrong on known text even with the vote, and f. 186 was not voted.
-- No palaeographer has checked it.
+- It awaits a palaeographer's reading.
 - The 5-gram choice of letter within a pair is sometimes wrong where a word-level reading would get it right.
 - Code signs are left as `{code}`; we did not identify them.

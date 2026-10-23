@@ -1,5 +1,5 @@
 # BnF fr. 3984 f. 185 (Gallica v345): decipherment made at the time of the sister letter f. 188.
-# Read by eye by Claude, 18 Oct 2026, from the Gallica image (view 345). Diplomatic: abbreviations
+# Read by Claude, 18 Oct 2026, from the Gallica image (view 345). Diplomatic: abbreviations
 # expanded only where the expansion is certain; [?] doubtful; {sign} = a sign the decipherer copied
 # without solving it (a code sign); ~~x~~ struck through. One line per manuscript line.
 Lestat des affes est tout ~~le~~ en tel terme que je le vous represente par les despesches que jose vous addresser que je vous supplie
